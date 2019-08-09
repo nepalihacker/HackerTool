@@ -11,13 +11,13 @@
  * Print help message 
  */
 static void args_banner () {
-    printf("iKeyLog - *KeyLogger (c) by %s\n\n", D_IXKEYLOG_AUTHOR);
+    printf("iKeyLog - *KeyLogger (c) by %s\n\n", D_IKEYLOG_AUTHOR);
 }
 
 
 static void args_help() {
     args_banner();
-    printf("Usage: ixkeylog [--daemon] [--debug] [-h] [-o output]");
+    printf("Usage: ikeylog [--daemon] [--debug] [-h] [-o output]");
     printf(" [--version] [-x DISPLAY]\n\n");
     
     printf("   --daemon     - Run process as daemon\n");

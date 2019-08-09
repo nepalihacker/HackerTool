@@ -35,11 +35,11 @@ static void args_help() {
  * 
  * @param argc No. of parameters
  * @param argv The parameters
- * @return own options structure (ixkeylog_opts)
+ * @return own options structure (ikeylog_opts)
  */
-ixkeylog_opts *args_check(int argc, char **argv)
+ikeylog_opts *args_check(int argc, char **argv)
 {
-    ixkeylog_opts *opts;
+    ikeylog_opts *opts;
     int option_index = 0;
     int c;
     const char *short_options = "ho:x:";

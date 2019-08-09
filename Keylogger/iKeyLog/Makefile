@@ -1,3 +1,4 @@
+# For Linux
 # Configuration stuff
 CC = gcc
 RM = rm -rf

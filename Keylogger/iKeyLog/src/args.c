@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <errno.h>
-#include "ixkeylog.h"
+#include "ikeylog.h"
 #include "display.h"
 #include "args.h"
 
@@ -11,7 +11,7 @@
  * Print help message 
  */
 static void args_banner () {
-    printf("iXKeyLog - *NIX X11 KeyLogger (c) by %s\n\n", D_IXKEYLOG_AUTHOR);
+    printf("iKeyLog - *KeyLogger (c) by %s\n\n", D_IXKEYLOG_AUTHOR);
 }
 
 

@@ -70,7 +70,7 @@ ikeylog_opts *args_check(int argc, char **argv)
                 else if(args_version_flag) {        /* --version */
                     opts->version = 1;
                     args_banner();
-                    printf("Version: %s\n", D_IXKEYLOG_VERSION);
+                    printf("Version: %s\n", D_IKEYLOG_VERSION);
                     exit(EXIT_SUCCESS);
                 }
                     
